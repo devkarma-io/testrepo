@@ -1,0 +1,3 @@
+steps:
+  - command: "echo \"This is the official pipeline defined for the testrepo.\""
+      
