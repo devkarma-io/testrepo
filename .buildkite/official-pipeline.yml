@@ -1,0 +1,4 @@
+steps:
+  - command: "echo \"This is the official pipeline defined for the testrepo.\""
+environment:
+  GIT_SSH_COMMAND: "ssh -o IdentitiesOnly=yes -i ~/.ssh/id_rsa_buildkitebuckley"
